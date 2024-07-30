@@ -1,7 +1,7 @@
 body {
     background: rgb(75, 74, 74);
     color: white;
-    font-family: Helvetica neue, Helvetica, Arial, sans-serif;
+    font-family: Raleway, Helvetica neue, Helvetica, Arial, sans-serif;
     margin: 0px;
     padding: 0px;
 }
@@ -38,5 +38,36 @@ ul {
 
 li {
     display: inline-block;
-    margin-right: 20px;
+    padding: 0 5px 0 5px;
+}
+
+nav {
+    background: rgb(223, 220, 220);
+    text-align: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 15px;
+
+}
+
+button {
+    text-decoration: none;
+}
+
+a {
+    color: black;
+    transition: 0.3s;
+}
+
+a:hover {
+    transition: .3s;
+    color: rgb(168, 47, 255);
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
 }
