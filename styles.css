@@ -1,14 +1,41 @@
 body {
-    background: rgb(75, 74, 74);
+    background: rgb(0, 0, 0);
     color: white;
-    font-family: Raleway, Helvetica neue, Helvetica, Arial, sans-serif;
+    font-family: Helvetica neue, Helvetica, Arial, sans-serif;
     margin: 0px;
     padding: 0px;
 }
 
+h1 {
+    margin-left: 5%;
+}
+
 header {
     background: black;
-    padding: 20px;
+
+}
+
+p {
+    width: 40%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.intro {
+    font-size: xxx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    text-align: center;
+    color: rgb(65, 203, 245);
+    background: rgb(0, 0, 0);
+    border: 5px;
+    border-color: aliceblue;
+}
+
+.aboutme {
+    text-align: center;
+    color: black;
+    font-size: 35;
 }
 
 section {
@@ -16,7 +43,9 @@ section {
     color: grey;
     padding: 20px;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    border-style: solid;
+    border-color: rgb(211, 27, 27);
 }
 
 footer {
@@ -25,9 +54,10 @@ footer {
 }
 
 div {
-    background: red;
     margin: auto;
-    width: 100px
+    width: 40%;
+    border-style: solid;
+    border-color: rgb(211, 27, 27);
 }
 
 ul {
@@ -39,12 +69,14 @@ ul {
 li {
     display: inline-block;
     padding: 0 5px 0 5px;
+    font-weight: 750;
 }
 
 nav {
     background: rgb(223, 220, 220);
     text-align: center;
     max-width: fit-content;
+    margin-top: 1%;
     margin-left: auto;
     margin-right: auto;
     padding: 4px;
