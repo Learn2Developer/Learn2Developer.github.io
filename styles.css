@@ -8,6 +8,48 @@ body {
 
 h1 {
     margin-left: 5%;
+    transition: 0.2s;
+    display: inline;
+    border: 1px;
+    border-color: beige;
+    border-style: dashed;
+}
+
+
+.unicorn:hover {
+    font-size: xxx-large;
+    animation: colorRotate 6s linear 0s infinite;
+
+}
+
+@keyframes colorRotate {
+    from {
+        color: rgb(255, 0, 0);
+    }
+
+    16.6% {
+        color: rgb(255, 0, 255);
+    }
+
+    33.3% {
+        color: rgb(0, 0, 255);
+    }
+
+    50% {
+        color: rgb(0, 255, 255);
+    }
+
+    66.6% {
+        color: rgb(0, 255, 0);
+    }
+
+    83.3% {
+        color: rgb(255, 255, 0);
+    }
+
+    to {
+        color: rgb(255, 0, 0);
+    }
 }
 
 header {
@@ -21,7 +63,7 @@ p {
     padding-right: 2%;
 }
 
-.intro {
+#intro {
     font-size: xxx-large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     justify-content: center;
@@ -32,7 +74,7 @@ p {
     border-color: aliceblue;
 }
 
-.aboutme {
+#aboutme {
     text-align: center;
     color: black;
     font-size: 35;
@@ -81,7 +123,7 @@ nav {
     margin-right: auto;
     padding: 4px;
     border-color: rgb(255, 255, 255);
-    border-radius: 15px;
+    border-radius: 5px;
 
 }
 
@@ -91,13 +133,17 @@ button {
 
 a {
     color: black;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 a:hover {
-    transition: .3s;
-    color: rgb(168, 47, 255);
+    transition: 0.2s;
+    color: rgb(65, 203, 245);
+    background: black;
+    padding: 10px;
+    border-radius: 10px;
 }
+
 
 a:link,
 a:visited {
