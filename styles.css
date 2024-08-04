@@ -100,6 +100,10 @@ footer {
     flex-direction: row;
 }
 
+footer img {
+    display: inline-flexbox;
+}
+
 div {
     margin: auto;
     width: 40%;
