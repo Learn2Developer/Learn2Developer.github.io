@@ -94,7 +94,7 @@ section {
 }
 
 footer {
-    background: black;
+    background: grey;
     padding: 10px 20px;
     display: flexbox;
     flex-direction: row;
