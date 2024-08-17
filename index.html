@@ -4,58 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/scripts.js"></script>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="container">
-                <a href="index.html" class="navbar">Home</a>
-                <a href="pages/projects.html" class="navbar">Projects</a>
-                <a href="pages/contact.html" class="navbar">Contact</a>
-                <a href="pages/login.html" class="navbar">Login</a>
-            </div>
-        </nav>
-    </header>
-    <div class="home">Home</div>
-    <section class="intro">
-        <p>Hello! 👋 <br> My name is Jesse Wagner <br> and I am a Full-Stack Web Developer.</p>
-    </section>
-    <section class="aboutMe">
-        <p>I first started my coding journey in 2022. My love for solving problems and working with
-            computers came
-            together perfectly in coding. I started out with Python like many beginners. Since
-            then I have decided to make a full-time career out of coding. </p>
-    </section>
-    <section id="projects">
-        <h2>Here are some projects I have completed! </h2>
-        <div>
-            <a href="https://www.github.com/learn2developer"><img src="socials\github.png" alt="GitHub.com"
-                    height="25px" width="25px">Check out my
-                GitHub for more info</a>
-        </div>
-        <article>
-            <ul>
-                <li>Battleship</li>
-                <li>Sudoku Builder</li>
-                <li>Calculator</li>
-            </ul>
-        </article>
-    </section>
+    <div class="intro">
+        <h1 id="intro">Tic-Tac-Toe <br>Make the first move!</h1>
+    </div>
 
-    <footer>
-        <div id="socials">Socials</div>
-        <div id="logos">
-            <a href="https://x.com/learn2developer"><img src="socials\twitter.png" alt="twitter" width="40"
-                    height="40"></a>
-            <a href="http://github.com/learn2developer"><img src="socials\github.png" alt="Github.com" width="40"
-                    height="40"></a>
-            <a href="https://instagram.com"><img src="socials\insta.png" alt="instgram" width="40" height="40"></a>
-
-        </div>
-    </footer>
+    <div id="gameboard">
+        <button class="btn" id="1" onclick="btn_press(this.id)">&nbsp;</button><button class="btn" id="2"
+            onclick="btn_press(this.id)">&nbsp;</button><button class="btn" id="3"
+            onclick="btn_press(this.id)">&nbsp;</button>
+        <br>
+        <button class="btn" id="4" onclick="btn_press(this.id)">&nbsp;</button><button class="btn" id="5"
+            onclick="btn_press(this.id)">&nbsp;</button><button class="btn" id="6"
+            onclick="btn_press(this.id)">&nbsp;</button>
+        <br>
+        <button class="btn" id="7" onclick="btn_press(this.id)">&nbsp;</button><button class="btn" id="8"
+            onclick="btn_press(this.id)">&nbsp;</button><button class="btn" id="9"
+            onclick="btn_press(this.id)">&nbsp;</button>
+        <br>
+    </div>
+    <div id="refresh_div"><button class="refresh" id="refresh_btn" onclick="refresh()">Restart</button></div>
 </body>
 
 </html>

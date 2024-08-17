@@ -1,123 +1,43 @@
 body {
-    background: rgb(0, 0, 0);
-    color: rgb(223, 220, 220);
-    font-family: Helvetica neue, Helvetica, Arial, sans-serif;
-    margin: 0px;
-    padding: 0px;
+    background-color: rgb(110, 182, 246);
+}
+
+#intro {
+    height: 80px;
+    background-color: rgb(146, 198, 244);
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+}
+
+#refresh_div {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#refresh_btn {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
 }
 
 h1 {
-    color: black;
-    text-align: left;
-}
-
-div.container {
-    display: inline-flex;
-    flex-direction: row;
-    margin: auto;
-}
-
-section.intro {
-    font-size: 45px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    justify-content: center;
     text-align: center;
-    color: rgb(65, 203, 245);
-    background: rgb(0, 0, 0);
-    border: 5px;
-    border-color: aliceblue;
 }
 
-div.home {
-    font-size: 40px;
-    padding-left: 3%;
-    background-color: rgb(223, 220, 220);
-    color: black;
-}
+#gameboard {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 
-div.contact {
-    font-size: 40px;
-    padding-left: 3%;
-}
-
-div.projects {
-    font-size: 40px;
-    padding-left: 3%;
-}
-
-a.navbar {
-    padding: 0 10px 0 10px;
-    font-weight: 750;
-    list-style-type: none;
-    align-items: center;
-    color: black;
-    transition: 0.2s;
-    font-size: large;
-}
-
-nav {
-    background: rgb(223, 220, 220);
-    display: flex;
-    flex-direction: row;
-    padding: 8px 16px 8px 16px;
-    border-color: rgb(255, 255, 255);
-    border-radius: 10px 10px 0 0;
-}
-
-a.navbar:hover {
-    transition: 0.2s;
-    color: rgb(65, 203, 245);
-    background: black;
-    border-radius: 7px;
-}
-
-a:link,
-a:visited {
-    text-decoration: none;
-}
-
-header {
-    background: rgb(223, 220, 220);
-    height: 75px;
-}
-
-p {
-    min-width: 550px;
-    max-width: 50%;
-}
-
-section.aboutme {
-    font-size: 40px;
-    text-align: center;
-    color: black;
-    font-size: 35;
-}
-
-section {
-    background: rgb(223, 220, 220);
-    color: grey;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    border-style: solid;
-    border-color: rgb(211, 27, 27);
-}
-
-footer {
-    background: grey;
-    display: flexbox;
-    flex-direction: row;
-}
-
-footer img {
-    display: inline-flex;
-}
-
-div {
-    border-style: solid;
-    border-color: rgb(211, 27, 27);
 }
 
 button {
-    text-decoration: none;
+    height: 100px;
+    width: 100px;
+    display: inline;
+    font-size: 40px;
 }
